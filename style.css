@@ -56,7 +56,7 @@
     color: var(--text-color);
     line-height: 1.6;
   }
-  :where(h1) {
+  h1 {
     font-size: 2rem;
   }
 
