@@ -1,5 +1,3 @@
-// import "./lib/embla.js";
-
 const menuButton = document.querySelector(".menu-btn");
 const menuArc = menuButton.querySelectorAll(".arc");
 const overlay = document.querySelector(".overlay");
