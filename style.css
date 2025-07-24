@@ -604,6 +604,37 @@
   .container-padding {
     padding: 2rem 1rem;
   }
+  /* privacy polic */
+  .privacy-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+  .privacy-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+  }
+  .privacy-content {
+    max-width: 77ch;
+    text-wrap: balance;
+    text-align: right;
+  }
+  .mail-us {
+    text-decoration: underline;
+  }
+  .privacy-contact {
+    color: var(--text-color-gray);
+    font-weight: 550;
+    max-width: 60ch;
+    text-align: center;
+  }
 }
 
 @layer library {
