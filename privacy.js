@@ -13,7 +13,7 @@ accordionItems.forEach((item) => {
     if (content.classList.contains("accordion-active")) {
       item.scrollIntoView({
         behavior: "smooth",
-        block: "center",
+        block: "start",
       });
     }
   });
