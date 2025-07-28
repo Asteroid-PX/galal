@@ -729,6 +729,8 @@
     border-radius: 8px;
     object-fit: cover;
     object-position: center;
+    display: block;
+    aspect-ratio: 16/9;
   }
   .watch-img {
     max-height: 200px;
