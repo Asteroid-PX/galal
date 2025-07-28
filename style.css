@@ -145,11 +145,22 @@
     font-weight: 550;
     transition: all 0.3s ease-in-out;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .download-icon {
+    scale: 0.95;
+    filter: invert(0);
   }
   .btn-primary-download:hover {
     background-color: var(--background-color);
     color: var(--text-color);
     border-color: var(--text-color);
+  }
+  .btn-primary-download:hover .download-icon {
+    filter: invert(1);
   }
   .download-btn {
     display: flex;
