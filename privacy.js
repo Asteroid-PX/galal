@@ -6,6 +6,7 @@ accordionItems.forEach((item) => {
   const accordionButton = item.querySelector(".accordion-item");
   const chevronIcon = item.querySelector(".chevron-icon");
   const content = item.querySelector(".accordion-content");
+
   accordionButton.addEventListener("click", () => {
     content.classList.toggle("accordion-active");
     chevronIcon.classList.toggle("chevron-active");
