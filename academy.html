@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BSM3B448V2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-BSM3B448V2");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سياسات تطبيق غلا لايف</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta
+      content="Hola Chat is a socializing app that helps people connect through text and voice chat, share moments, and make friends globally."
+      name="description"
+    />
+    <meta name="keywords" content="chat, socializing, app, connect, friends" />
+    <meta name="author" content="Gala live Team" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <link rel="shortcut icon" href="./public/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./public/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- header -->
+      <header class="header">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="/">
+              <img
+                src="./public/logo.png"
+                class="logo-img"
+                alt="Gala live Logo"
+              />
+            </a>
+          </div>
+          <div class="nav-links-wrapper">
+            <div class="nav-links-container">
+              <ul class="nav-links">
+                <li><a class="nav-link" href="/">الرئيسية</a></li>
+                <li><a class="nav-link" href="/#about-us">عن التطبيق</a></li>
+                <li><a class="nav-link" href="/#features">الميزات</a></li>
+                <li>
+                  <a class="nav-link" href="./academy.html">فيديوهات تعليمية</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./privacy.html">سياسة غلا لايف</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="download-btn">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.galalive.chat"
+              target="_blank"
+              class="btn-primary-download"
+            >
+              حمله الان
+            </a>
+            <div class="menu-button-container">
+              <button class="menu-btn">
+                <div class="menu-btn-icon">
+                  <span class="arc"></span>
+                  <span class="arc"></span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- content section -->
+      <section class="content container-padding">
+        <div class="videos-container">
+          <h1 class="tutorials-title">فيديوهات تعليمية</h1>
+          <div class="videos-grid">
+            <div class="video-card-container">
+              <div class="video-thumbnail">
+                <button class="watch-video-btn watch-img" data-video-id="1">
+                  <img
+                    src="./public/thumbnail/video-1.jpg"
+                    alt="Tutorial 1"
+                    class="thumbnail-img"
+                  />
+                </button>
+              </div>
+              <div class="video-info">
+                <h2 class="video-title">
+                  كيف تحل مشكلة التعليق او استهلاك النت
+                </h2>
+                <p class="video-description">
+                  في هذا الفيديو، نوضح كيفية حل مشكلة تعليق التطبيق أو استهلاك
+                  الإنترنت بشكل مفرط. نقدم نصائح وإعدادات لتحسين الأداء.
+                </p>
+                <button class="watch-video-btn" data-video-id="1">
+                  شاهد الفيديو
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <footer class="footer container-padding">
+        <div class="footer-container">
+          <div class="footer-content">
+            <div class="copy-right">© 2025 غلا لايف. جميع الحقوق محفوظة.</div>
+            <div class="social-links">
+              <a href="#" class="social-link">فيسبوك</a>
+              <a href="#" class="social-link">اكس</a>
+              <a href="#" class="social-link">انستغرام</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- video modal -->
+      <div class="video-modal-container">
+        <div class="video-overlay-container">
+          <div class="modal-overlay"></div>
+          <button class="close-modal-btn flex">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-x-icon lucide-x"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+          <div class="video-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./tutorials.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
