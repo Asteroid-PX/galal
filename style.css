@@ -70,6 +70,7 @@
     border: none;
     padding: 0;
     font-size: inherit;
+    color: inherit;
   }
   img {
     object-position: center;
@@ -567,6 +568,91 @@
       gap: 1.5rem;
     }
   }
+  /* privacy polic */
+  .privacy-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+  }
+  .privacy-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .privacy-content {
+    max-width: 77ch;
+    text-wrap: balance;
+    text-align: right;
+  }
+  .mail-us {
+    text-decoration: underline;
+  }
+  .privacy-contact {
+    color: var(--text-color-gray);
+    font-weight: 550;
+    max-width: 60ch;
+    text-align: center;
+  }
+  .accordion {
+    color: var(--text-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .accordion-item {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border-gray);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  .chevron-icon {
+    filter: invert(0.95);
+    transition: transform 0.3s ease-in-out;
+    --size: 1.5rem;
+    width: var(--size);
+    height: var(--size);
+  }
+  .chevron-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--size);
+    height: var(--size);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    --size: 1.9rem;
+  }
+  .accordion-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+    display: none;
+  }
+  .accordion-title {
+    text-align: right;
+  }
+  .accordion-active {
+    display: flex;
+  }
+  .chevron-active {
+    transform: rotate(-180deg);
+  }
 }
 
 @layer utilities {
@@ -603,37 +689,6 @@
   }
   .container-padding {
     padding: 2rem 1rem;
-  }
-  /* privacy polic */
-  .privacy-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
-  }
-  .privacy-content-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    max-width: 1200px;
-  }
-  .privacy-content {
-    max-width: 77ch;
-    text-wrap: balance;
-    text-align: right;
-  }
-  .mail-us {
-    text-decoration: underline;
-  }
-  .privacy-contact {
-    color: var(--text-color-gray);
-    font-weight: 550;
-    max-width: 60ch;
-    text-align: center;
   }
 }
 
