@@ -43,9 +43,11 @@ WatchButtons.forEach((button) => {
 closeButton.addEventListener("click", () => {
   videoContainer.classList.remove("active-video");
   overlay.classList.remove("active");
+  document.body.classList.remove("no-scroll");
 });
 
 overlay.addEventListener("click", () => {
   videoContainer.classList.remove("active-video");
   overlay.classList.remove("active");
+  document.body.classList.remove("no-scroll");
 });
