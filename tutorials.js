@@ -1,12 +1,11 @@
 let tutorial = false;
 const videos = [
   {
-    src: "https://www.youtube.com/embed/8QaoQOJ12OQ",
+    src: "https://www.youtube.com/embed/MkAJZdxNNF0",
     title:
       "كيف تحل مشكلت اتعليق او استهلك نت هذا الفيديو فقط للاشخص الي في اليمن او شخص الشبكه الانرنت ضعيفه",
   },
 ];
-
 const videoPlayContainer = document.querySelector(".video-container");
 const videoContainer = document.querySelector(".video-modal-container");
 const closeButton = videoContainer.querySelector(".close-modal-btn");
