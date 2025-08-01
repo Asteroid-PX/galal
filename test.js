@@ -1,7 +1,7 @@
 let tutorial = false;
 const videos = [
   {
-    src: "https://www.youtube.com/shorts/vEMn8QKINyU",
+    src: "https://www.youtube.com/embed/MkAJZdxNNF0",
     title:
       "test",
   },
@@ -19,7 +19,7 @@ WatchButtons.forEach((button) => {
     videoContainer.classList.add("active-video");
     document.body.classList.add("no-scroll");
     videoContainer.classList.add("active-video");
-    if (!tutorial) {
+    if (!test) {
       const videoID = +e.target.getAttribute("data-video-id");
       const videoURL = videos[+videoID - 2].src;
       const videoTitle = videos[+videoID - 2].title;
