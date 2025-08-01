@@ -21,8 +21,8 @@ WatchButtons.forEach((button) => {
     videoContainer.classList.add("active-video");
     if (!tutorial) {
       const videoID = +e.target.getAttribute("data-video-id");
-      const videoURL = videos[+videoID - 1].src;
-      const videoTitle = videos[+videoID - 1].title;
+      const videoURL = videos[+videoID - 2].src;
+      const videoTitle = videos[+videoID - 2].title;
       const iframe = document.createElement("iframe");
       iframe.src = videoURL;
       iframe.setAttribute("width", "100%");
