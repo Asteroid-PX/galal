@@ -804,6 +804,11 @@
     gap: 2rem;
     margin-bottom: 3rem;
   }
+  .instructions-link {
+    color: var(--text-color);
+    font-weight: 550;
+    text-decoration: underline;
+  }
 }
 
 @layer utilities {
