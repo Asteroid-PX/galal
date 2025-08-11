@@ -889,6 +889,10 @@
     padding: 0;
     width: 100%;
   }
+  .link-highlight {
+    color: #00ff34;
+    font-size: 1.2rem;
+  }
 }
 
 @layer library {
