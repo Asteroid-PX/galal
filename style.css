@@ -132,6 +132,11 @@
     color: var(--text-color);
     border-bottom: 2px solid var(--text-color);
   }
+  .logo-link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @layer modules {
