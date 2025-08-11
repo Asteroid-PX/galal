@@ -81,6 +81,7 @@
   img {
     object-position: center;
     object-fit: cover;
+    user-select: none;
   }
   table {
     width: 100%;
