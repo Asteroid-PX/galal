@@ -102,6 +102,11 @@
 }
 
 @layer layout {
+  .main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
   .header {
     display: flex;
     justify-content: center;
@@ -576,6 +581,15 @@
   /* footer */
   .footer {
     border-top: 1px solid var(--border-gray);
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+  }
+  .footer-container {
+    max-width: 1400px;
+    width: 100%;
   }
   .footer-content {
     display: flex;
@@ -848,6 +862,42 @@
   .modal-heading {
     text-align: center;
   }
+  /* Market Place */
+  .market-place-link {
+    color: var(--text-color);
+    font-weight: 550;
+    text-decoration: underline;
+    transition: color 0.3s ease-in-out;
+  }
+  .market-place-link:hover {
+    color: var(--secondary-color);
+  }
+  /* market products */
+  .marketplace-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .product-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .product-card {
+    padding: 1rem;
+    border: 1px solid #2c2c2c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 420px;
+  }
 }
 
 @layer utilities {
@@ -892,6 +942,10 @@
   .link-highlight {
     color: #00ff34;
     font-size: 1.2rem;
+  }
+  /* stripe buttons */
+  .BuyButton-ButtonTextContainer {
+    background-color: #171717;
   }
 }
 
